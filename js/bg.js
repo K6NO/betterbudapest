@@ -1,7 +1,7 @@
 $(document).ready(function(){
-    var images=['../img/bg1.jpg',
-        '../img/bg2.jpg',
-        '../img/bg3.jpg'
+    var images=['betterbudapest/img/bg1.jpg',
+        'betterbudapest/img/bg2.jpg',
+        'betterbudapest/img/bg3.jpg'
     ];
 
     var randomNumber = Math.floor(Math.random() * images.length);
