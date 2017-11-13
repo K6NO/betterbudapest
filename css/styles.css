@@ -19,9 +19,9 @@ body {
 }
 
 .navbar-transparent {
-    background-color: #000;
+    /*background-color: #000;*/
 
-    /*background-color: rgba(0, 0, 0, .2);*/
+    background-color: rgba(255, 255,255, .2);
     border: none;
 }
 
@@ -35,11 +35,6 @@ body {
 
 }
 
-.bg-pict{
-    background: #2e3133 url("../img/bg_col.jpg");
-    background-size: cover;
-    /*min-height: 850px;*/
-}
 
 .bg-blue {
     background: #00248f;
@@ -52,8 +47,12 @@ h1{
 
 
 .jumbo-title {
-    padding: 1.8em 20px .5em;
+    margin: 1.8em 20px .5em;
+    /*padding: 10px;*/
     font-size: 80px;
+    text-shadow: 1px 1px 5px #2e3133;
+    color: #fff;
+    /*background: #00248f;*/
 }
 
 .jumbo-text {
@@ -121,7 +120,13 @@ h1{
 
 .logo {
     opacity: 0.5;
-    margin: 1em 0;
+    margin: 2em 0;
+    max-height: 80px;
+}
+
+.header-logo {
+    padding-top: .4em;
+    max-height: 60px;
 }
 
 footer {
