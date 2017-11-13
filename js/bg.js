@@ -1,7 +1,7 @@
 $(document).ready(function(){
-    var images=['img/bg1.jpg',
+    var images=['img/bg1.JPG',
         'img/bg2.jpg',
-        'img/bg3.jpg'
+        'img/bg3.JPG'
     ];
 
     var randomNumber = Math.floor(Math.random() * images.length);
